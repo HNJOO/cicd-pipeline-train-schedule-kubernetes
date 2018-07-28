@@ -48,8 +48,8 @@ pipeline {
                 //implement Kubernetes deployment here
                 kubernetesDeploy(
                     kubeconfigId: 'kubeconfig',
-	                configs: 'train-schdule-kube.yml',
-	                enableConfigSubstitution: true
+	            configs: 'train-schedule-kube.yml',
+	            enableConfigSubstitution: true
                 )
             }
         }
